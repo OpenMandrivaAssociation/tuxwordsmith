@@ -77,3 +77,10 @@ rm -rf %{buildroot}
 %{_datadir}/applications/%{name}*.desktop 
 %{_iconsdir}/*
 
+
+
+%changelog
+* Sun Apr 17 2011 Angelo Naselli <anaselli@mandriva.org> 0.7.13-1mdv2011.0
++ Revision: 654799
+- import tuxwordsmith
+
