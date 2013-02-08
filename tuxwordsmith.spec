@@ -1,6 +1,6 @@
 %define name	tuxwordsmith
 %define version	0.7.13
-%define release	%mkrel 1
+%define release	2
 
 Summary:        Multilanguage scrabble game
 Name:           %{name}
@@ -18,7 +18,10 @@ BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
  
 %description
-With TuxWordSmith you get Scrabble in English, French, German, Italian, Greek, Latin , Dutch, Swahili, Spanish, Russian, Ukranian, Swedish, Icelandic, Norwegian, Finnish, Brazillian-Portuguese, Arabic, Hindi, Turkish, Czech, Kurdish, Hungarian and more, all in one application!
+With TuxWordSmith you get Scrabble in English, French, German, Italian, Greek,
+Latin , Dutch, Swahili, Spanish, Russian, Ukranian, Swedish, Icelandic,
+Norwegian, Finnish, Brazillian-Portuguese, Arabic, Hindi, Turkish, Czech,
+Kurdish, Hungarian and more, all in one application!
 
 %prep
 %setup -q -n %name-%version
