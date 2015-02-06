@@ -1,6 +1,6 @@
 %define name	tuxwordsmith
 %define version	0.7.13
-%define release	2
+%define release	3
 
 Summary:        Multilanguage scrabble game
 Name:           %{name}
