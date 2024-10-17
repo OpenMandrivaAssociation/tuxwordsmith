@@ -8,7 +8,7 @@ Version:        %{version}
 Release:	1
 Source0:        %{name}-%{version}.tar.bz2
 Patch0:         %{name}-0.7.13-fix-path.patch
-URL:            http://www.schoolforge.net/education-software/educational-games/tuxwordsmith
+URL:            https://www.schoolforge.net/education-software/educational-games/tuxwordsmith
 License:        GPLv2+ 
 Group:          Games/Boards
 BuildRequires:  imagemagick
